@@ -55,3 +55,7 @@ with open (csvpath) as csvfile:
         report.write("Average  Change:  ${:,.0f}\n".format  (avg_change))
         report.write("Greatest Increase in Profits: " + Greatest_Increase_mth + " ${:,.0f} \n".format(Greatest_Increase))
         report.write("Greatest Decrease in Profits: " + Greatest_Decrease_mth + " ${:,.0f} \n".format(Greatest_Decrease))
+
+    
+    
+    
